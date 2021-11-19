@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Scrabble - game{% endblock %}</title>
+    {% block stylesheet %}{# import css files #}{% endblock %}
+</head>
+<body>
+<div class="main-container">
+    {% block navbar %}
+        {# import navbar #}
+    {% endblock %}
+    {% block content %}
+        {# import content of the page #}
+    {% endblock %}
+</div>
+</body>
+
+{% block javascript %}
+{#import javascript files#}
+{% endblock %}
+</html>

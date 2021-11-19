@@ -1,0 +1,5 @@
+{% block stylesheet %}
+    {% for style in cssFiles %}
+        <link rel="stylesheet" href="/assets/css/{{ style }}.css"/>
+    {% endfor %}
+{% endblock %}

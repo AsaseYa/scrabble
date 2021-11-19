@@ -1,0 +1,5 @@
+{% block stylesheet %}
+    {% for js in jsFiles %}
+        <script type="text/javascript" src="assets/javascript/{{ js }}.js"></script>
+    {% endfor %}
+{% endblock %}
