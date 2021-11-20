@@ -1,4 +1,4 @@
-/*lettersContainer = document.querySelector('.lettersContainer');
+lettersContainer = document.querySelector('.lettersContainer');
 
 let timer = document.createElement('div');
 timer.classList.add('timer');
@@ -8,12 +8,12 @@ lettersContainer.appendChild(timer);
 function calculateTimer(wordsByLetter) {
     let timer = 0;
     let timerCount = {
-        2: 2,
-        3: 5,
+        2: 1,
+        3: 3,
         4: 7,
-        5: 9,
-        6: 12,
-        7: 15,
+        5: 10,
+        6: 10,
+        7: 10,
     }
     let counter = 1;
     wordsByLetter.forEach((words) => {
@@ -33,4 +33,4 @@ const reduceTimeCount = () => {
 
     }
 }
-setInterval(reduceTimeCount, 1000);*/
+setInterval(reduceTimeCount, 1000);
