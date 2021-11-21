@@ -17,7 +17,6 @@ function calculateTimer(wordsByLetter) {
     }
     let counter = 1;
     wordsByLetter.forEach((words) => {
-        console.log(words)
         counter++;
         timer += timerCount[counter] * words.length;
     })
